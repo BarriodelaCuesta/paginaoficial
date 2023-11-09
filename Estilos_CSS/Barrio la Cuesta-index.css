@@ -1,0 +1,84 @@
+/*PROPIEDADES DEL NAVEGADOR PRINCIPAL*/ 
+
+.boton {
+    border: 5px solid #0e8b85; 
+    padding: 10px; 
+    background-color: #00ffff; 
+    color: #ff0000; 
+    text-decoration: none; 
+    text-transform: uppercase; 
+    font-family: 'Times New Roman', Times, serif; 
+    border-radius: 50px; 
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+    font-weight: bolder;
+    }
+
+    .boton:hover{
+                    background-color: blue;
+                    color: rgb(255, 255, 255);
+                }
+
+    
+
+    .titulo{
+    color: rgb(255, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    
+    text-align: center;
+    
+    }
+
+    #cabezera { margin: 10px;;
+        align-items: center;
+        margin-top: 10px;
+        border-top-right-radius: 10px ;
+        border-top-left-radius: 10px ;
+        
+    }
+
+
+    /*NAVEGACION-fondo*/
+    section{
+    color: rgb(0, 0, 0);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(235, 250, 250);
+    font-size: medium;
+    
+    }
+
+    #fecha {
+        font-family: Arial, Helvetica, sans-serif;
+        color:black;
+        
+    
+    }
+
+    
+
+
+/*BODY*/
+
+    header{ background-color: rgb(171, 254, 255) ;
+        margin-inline: -0.25cm;
+            
+    }
+
+
+    body{ background-image: url(../Img/encina\ barrio.jpg), url( https://www.valledezamanzas.es/sites/valledezamanzas/files/_mg_4142.jpg );
+        background-repeat: no-repeat;
+        background-size: 50%;
+        background-attachment:fixed;
+        background-position: center center;
+        animation: animatedBackground 40s linear infinite; 
+        margin: 0.25cm;
+
+    }  
+
+    #bajo {
+        background-image: linear-gradient(red, yellow,red);
+    height: 0.5cm;
+    
+    
+    }

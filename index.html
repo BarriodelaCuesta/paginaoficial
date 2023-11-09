@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Barriolacuesta-INICIO</title>
+        <link rel="stylesheet" type="text/css" href="Estilos_CSS/Barrio la Cuesta-index.css">
+        <link rel="icon" type="image/x-icon" href="Img/encina barrio.jpg">
+    </head>
+
+ <body>
+
+    <header>
+        
+        <script id="fecha"> <!-- fecha -->
+            var meses = new Array("Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre");
+            var diasSemana = new Array("Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado", "Domingo");
+            var fecha = new Date();
+            document.write(diasSemana[fecha.getDay()-1] + " " + fecha.getDate() + " de " + meses[fecha.getMonth()] + " de " + fecha.getFullYear());
+        </script>
+
+
+ <!---->
+        <h1 class="titulo">
+            Barrio de la Cuesta
+        </h1>
+
+        <section id="cabezera">
+
+            <a href="index.html" >
+
+                <div class="boton">
+
+                INICIO
+
+                </div>
+
+            </a>
+
+            <a href="Conoce_el_pueblo.html" > 
+
+                <div class="boton">
+
+                    Conoce el pueblo
+
+                </div>
+
+            </a>
+
+
+            <a href="brum.html" >
+
+                <div class="boton">
+
+                    texto
+
+                </div>
+
+            </a>
+        
+        </section>
+
+
+
+    </header>
+ <!---->
+    
+
+ 
+
+
+    <footer>    
+        
+    
+
+        <section separacion id="bajo"> </section>
+
+        
+    <dialog id="dialog-2">
+        <h1>Contacto con el desarrollador</h1>
+
+
+        <div class="footer1">
+            <form action="Barrio la Cuesta-INICIO.html" method="post" > 
+
+                Nombre <br/>
+                <input type="text" name="Nombre"/> <br/><br/>
+                Relacion con el pueblo: <br/>
+                <input type="radio" name="Relacion con el pueblo" value="Habitante" required/> Habitante <br/>
+                <input type="radio" name="Relacion con el pueblo" value="Veciono de un pueblo cercano" /> Veciono de un pueblo cercano <br/>
+                <input type="radio" name="Relacion con el pueblo" value="Turista" /> Turista <br/>
+                <input type="radio" name="Relacion con el pueblo" value="Otro" /> Otro <br/><br/>
+                Correo: <input type="email" name="correo" size="40" placeholder="Opcional"><br/>
+
+
+                INTRODUZCA EL MENSAJE <br/>
+                <textarea name="mensaje" id="mensaje-1" cols="30" rows="10" placeholder="Escriba el mensaje">  </textarea> <br/><br/>
+                <input type="submit" value="Enviar"/>
+            </form>
+        </div>
+
+
+    <p>
+        <input type="button" value="Cerrar" onclick="document.getElementById('dialog-2').removeAttribute('open')">
+        </p>
+    </dialog>
+        
+    <p>
+        <input type="button" value="Contacto con el desarrollador" onclick="document.getElementById('dialog-2').setAttribute('open', 'open')">
+    </p>
+
+    </footer>   
+
+<!-- OTROS -->
+
+
+
+ </body>
+
+</html>
